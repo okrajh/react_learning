@@ -10,4 +10,5 @@
          App();
       )  : this is also work
       - render(<App>)
-      
+      - Bundler is responsible for convert react component jsx element to js 
+      -
