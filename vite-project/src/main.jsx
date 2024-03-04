@@ -10,10 +10,22 @@ function Name() {
     </div>
   )
 }
+const reactElement = {
+  type: 'a',
+  props: {
+    href: 'https://google.com',
+    target: '_blank'
+  },
+  childern: 'Click to visit',
+};
 
+const anotherElement = (
+  <a href='https://google.com' target='_blank'>Visit google</a>
+)
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
 
-  Name()
+  // Name()
+  anotherElement
   // </React.StrictMode>,
 )
