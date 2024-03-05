@@ -12,3 +12,10 @@
       - render(<App>)
       - Bundler is responsible for convert react component jsx element to js 
       - You can paas jsx element to render method directly. ./vite-project/src/main.jsx #L29
+      
+   ## How to inject variable inside the react componet
+
+      - Curly braces syntax { variable }
+      - ### Evaluated expression
+         - { evaluated expression } 
+            - *we write here final expression.*
