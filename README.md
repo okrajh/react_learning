@@ -16,6 +16,7 @@
    ## How to inject variable inside the react componet
 
       - Curly braces syntax { variable }
-      ### Evaluated expression
-         - { evaluated expression } 
-         *we write here final expression.*
+      
+   ### Evaluated expression
+      - { evaluated expression } 
+      *we write here final expression.*
